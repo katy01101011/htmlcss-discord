@@ -100,3 +100,62 @@ ul {
     background-color: white;
     border-radius: 2em;
 }
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Jumbo Text */
+
+.jumbo_text {
+    color: white;
+    text-align: center;
+    width: 48%;
+    padding-top: 5em;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.jumbo_text h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: .8em
+}
+
+.jumbo_text p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+
+/* Jumbo Buttons */
+
+.buttons {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 8em;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 2em .8em;
+    padding: .8em 1.3em;
+    border-radius: 1.5em;
+}
+
+.buttons :first-child {
+    color: #23272A;
+    background-color: white;
+}
+
+.buttons :last-child {
+    color: white;
+    background-color: #23272A;
+}
