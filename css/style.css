@@ -110,7 +110,7 @@ ul {
     text-align: right;
 }
 
- .col_login a {
+.col_login a {
     color: inherit;
     font-size: inherit;
     font-weight: bold;
@@ -118,6 +118,10 @@ ul {
     padding: .8em 1em;
     background-color: white;
     border-radius: 2em;
+}
+
+.col_login a:hover {
+    background-color: #8EA1E1;
 }
 
 
@@ -174,6 +178,10 @@ ul {
     background-color: #23272A;
 }
 
+.buttons a:hover {
+    background-color: #8EA1E1;
+}
+
 
 /* MAIN */
 
@@ -206,7 +214,7 @@ ul {
 
 .last_section {
     background-color: #F6F6F6;
-    padding-top: 4em;
+    padding: 4em 0;
 }
 
 .last_container {
@@ -215,7 +223,9 @@ ul {
 }
 
 .last_text {
+    width: 70%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .last_img_container {
@@ -248,6 +258,10 @@ margin: 1.5em;
     border-radius: 1.5em;
 }
 
+.mac_blu:hover {
+    background-color: #3161E0;
+}
+
 /* ONDE */
 
 .wave {
@@ -260,4 +274,27 @@ margin: 1.5em;
 
 svg {
     display: block;
+}
+
+
+/* FOOTER */
+
+footer {
+    /* background-color: #23272A; */
+    background-color: plum;
+}
+
+.footer_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.discord {
+    width: 32%;
+}
+
+/* List */
+
+.list {
+    width: 17%;
 }
